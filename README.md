@@ -37,7 +37,7 @@ terraform validate
 terraform apply
 ```
 
-Once Terraform has completed the build, it will output the Splunk admin password (also stored locally on the server in `/home/ec2-user/splunk_password`).
+Once Terraform has completed the build, it will output the randomly generated Splunk admin password (also stored locally on the server in `/home/ec2-user/splunk_password`).
 
 # Feedback
 
